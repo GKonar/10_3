@@ -22,6 +22,7 @@ body {
 	background-color: #e74c3c;
 	border: none;
 	position: relative;
+	color:  #273c75;
 }
 
 .next{
@@ -38,7 +39,7 @@ body {
 	margin:  160px auto;
 	width: 400px;
 	height: 300px;
-	/*overflow: hidden;*/
+	
 	border: 1px  #f0932b solid;
 	border-radius: 10px;
 }
@@ -46,6 +47,7 @@ body {
 ul {
 	list-style-type: none;
 	width: 2000px;
+	margin-left: -400px;
 }
 
 li {
@@ -77,4 +79,33 @@ li {
 
 .photo5 {
 	background-image: url(https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=569992b9ec9111e3956a7f0933f3f7bf&auto=format&fit=crop&w=800&q=60);
+}
+
+.dots {
+	position: relative;
+	top: 470px;
+	left: 545px;
+	width: 200px;
+}
+
+.dots ul {
+	margin: 0;
+	width: 200px;
+}
+
+.dots li {
+  width: 15px;
+  height: 15px;
+  background : #e74c3c;
+  display: inline-block;
+  margin: 3px;
+  border-radius: 50%;
+ }
+
+ li.active {
+  background: #273c75;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  bottom: 2.5px;
 }
